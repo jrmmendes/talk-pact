@@ -29,8 +29,21 @@ app.get('/heroes', (req, res) => {
       name: hero.localized_name,
       attack_type: hero.attack_type,
       roles: hero.roles,
-    })) 
+    }))
   });
+});
+
+app.get('/heroes/:id', (req, res) => {
+  if (req.params.id < 0) {
+    return res.status(404).send({ error: 'ID must be a positive integer' });
+  }
+  const hero = heroes.find(hero => String(hero.id) === req.params.id)
+
+  if (!hero) {
+    return res.status(404).send({ message: `Hero with ID ${req.params.id} not found` });
+  }
+
+  return res.send(hero);
 })
 
 app.listen(port, () => Logger.info(`Server running in port ${port}`));
