@@ -1,26 +1,6 @@
-import express from 'express';
-import morgan from 'morgan';
-import cors from 'cors';
-import helmet from 'helmet';
-
+import { consumer } from './consumer';
 import { Logger } from './logger';
-import { getHeroDetails, getHeroesList } from './api';
 
 const port = process.env.PORT || 3000;
 
-const app = express();
-
-app.use(morgan('dev'));
-app.use(express.json());
-app.use(cors());
-app.use(helmet());
-
-app.get('/', async (req, res) => {
-
-  const heroes = await getHeroesList();
-  const phantonAssassin = await getHeroDetails(44);
-
-  return res.send({ heroes, phantonAssassin });
-});
-
-app.listen(port, () => Logger.info(`Server running in port ${port}`));
+consumer.listen(port, () => Logger.info(`Server running in port ${port}`));
