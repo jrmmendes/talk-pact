@@ -5,7 +5,6 @@
 
 <p align=center>
   <img src="https://img.shields.io/badge/versão-1-green">
-  <img src="https://img.shields.io/badge/exemplos-blue">
 </p>
 
 # Links
