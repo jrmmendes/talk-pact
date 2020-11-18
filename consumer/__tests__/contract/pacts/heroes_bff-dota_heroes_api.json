@@ -28,23 +28,27 @@
               "name": "Anti-Mage",
               "attack_type": "Melee",
               "roles": [
-                "Carry",
-                "Escape",
-                "Nuker"
-              ]
-            },
-            {
-              "id": 2,
-              "name": "Axe",
-              "attack_type": "Melee",
-              "roles": [
-                "Initiator",
-                "Durable",
-                "Disabler",
-                "Jungler"
+                "Carry"
               ]
             }
           ]
+        },
+        "matchingRules": {
+          "$.body.data": {
+            "min": 1
+          },
+          "$.body.data[*].*": {
+            "match": "type"
+          },
+          "$.body.data[*].roles": {
+            "min": 1
+          },
+          "$.body.data[*].roles[*].*": {
+            "match": "type"
+          },
+          "$.body.data[*].roles[*]": {
+            "match": "type"
+          }
         }
       }
     }
