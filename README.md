@@ -1,5 +1,5 @@
 <p align=center>
-  <img width="500" src="https://pact.io/assets/img/logo-black.png" alt="pact logo">
+  <img width="300" src="https://pact.io/assets/img/logo-black.png" alt="pact logo">
 </p>
 <p align="center">O Pact é uma ferramenta baseada em código para testes de intragração em projetos que utilizam HTTP ou outras formas de mensagens, através de <strong>testes de contrato</strong>. Neste repositório, você encontra materiais de apoio e exemplos (wip).</p>
 
