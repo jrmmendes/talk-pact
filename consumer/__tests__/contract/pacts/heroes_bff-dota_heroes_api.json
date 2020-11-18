@@ -1,0 +1,57 @@
+{
+  "consumer": {
+    "name": "Heroes BFF"
+  },
+  "provider": {
+    "name": "Dota Heroes API"
+  },
+  "interactions": [
+    {
+      "description": "a request for all heroes",
+      "providerState": "i have a list of heroes",
+      "request": {
+        "method": "GET",
+        "path": "/heroes",
+        "headers": {
+          "Accept": "application/json, text/plain, */*"
+        }
+      },
+      "response": {
+        "status": 200,
+        "headers": {
+          "Content-Type": "application/json; charset=utf-8"
+        },
+        "body": {
+          "data": [
+            {
+              "id": 1,
+              "name": "Anti-Mage",
+              "attack_type": "Melee",
+              "roles": [
+                "Carry",
+                "Escape",
+                "Nuker"
+              ]
+            },
+            {
+              "id": 2,
+              "name": "Axe",
+              "attack_type": "Melee",
+              "roles": [
+                "Initiator",
+                "Durable",
+                "Disabler",
+                "Jungler"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
+  }
+}
