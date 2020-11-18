@@ -4,8 +4,8 @@
 <p align="center">O Pact é uma ferramenta baseada em código para testar a integração em projetos que utilizam HTTP ou outras formas de mensagens, através de <strong>testes de contrato</strong>. Neste repositório, você encontra materiais de apoio e exemplos.</p>
 
 <p align=center>
-  <img src="https://img.shields.io/badge/revisão-1-green">
-  <img src="https://img.shields.io/badge/exemplos-WIP-green">
+  <img src="https://img.shields.io/badge/versão-1-green">
+  <img src="https://img.shields.io/badge/exemplos-blue">
 </p>
 
 # Links
