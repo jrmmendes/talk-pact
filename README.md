@@ -1,7 +1,7 @@
 <p align=center>
   <img width="300" src="https://pact.io/assets/img/logo-black.png" alt="pact logo">
 </p>
-<p align="center">O Pact é uma ferramenta baseada em código para testes de intragração em projetos que utilizam HTTP ou outras formas de mensagens, através de <strong>testes de contrato</strong>. Neste repositório, você encontra materiais de apoio e exemplos (wip).</p>
+<p align="center">O Pact é uma ferramenta baseada em código para testar a integração em projetos que utilizam HTTP ou outras formas de mensagens, através de <strong>testes de contrato</strong>. Neste repositório, você encontra materiais de apoio e exemplos.</p>
 
 <p align=center>
   <img src="https://img.shields.io/badge/revisão-1-green">
