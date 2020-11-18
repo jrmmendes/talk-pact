@@ -2,6 +2,7 @@
 // https://jestjs.io/docs/en/configuration.html
 
 module.exports = {
+  testEnvironment: "node",
   clearMocks: true,
   verbose: true,
   coverageDirectory: 'coverage',
