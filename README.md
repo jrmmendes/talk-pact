@@ -9,5 +9,5 @@
 </p>
 
 # Links
-- [Apresentação (WIP)](https://docs.google.com/presentation/d/1GFphi2Wob2G5MrvEXT72ZnF3xoyhLKJBXnRaFjXfhJs/edit?usp=sharing)
+- [Apresentação](https://docs.google.com/presentation/d/1jSXlUpi85LP3SDS0OK0B8DAOx88CRAgduegBcMIiXlE/edit?usp=sharing)
 - [Documentação](https://docs.pact.io/)
